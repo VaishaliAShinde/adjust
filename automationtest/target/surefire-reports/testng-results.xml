@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="133447" started-at="2021-11-11T14:45:55Z" finished-at="2021-11-11T14:48:08Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="133447" started-at="2021-11-11T14:45:55Z" finished-at="2021-11-11T14:48:08Z">
+      <class name="com.adjustSwaggerPetstore.testcases.LaunchTest">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.adjustSwaggerPetstore.testcases.LaunchTest@6fadae5d]" name="setupSuite" is-config="true" duration-ms="762" started-at="2021-11-11T15:45:54Z" finished-at="2021-11-11T15:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.adjustSwaggerPetstore.testcases.LaunchTest@6fadae5d]" name="setup" is-config="true" duration-ms="10355" started-at="2021-11-11T15:45:55Z" finished-at="2021-11-11T15:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getPetDetailsByStatus()[pri:0, instance:com.adjustSwaggerPetstore.testcases.LaunchTest@6fadae5d]" name="getPetDetailsByStatus" duration-ms="114556" started-at="2021-11-11T15:46:05Z" finished-at="2021-11-11T15:48:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetDetailsByStatus -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.adjustSwaggerPetstore.testcases.LaunchTest@6fadae5d]" name="tearDownMethod" is-config="true" duration-ms="3" started-at="2021-11-11T15:48:00Z" finished-at="2021-11-11T15:48:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getPetDetailsByStatus status=SUCCESS method=LaunchTest.getPetDetailsByStatus()[pri:0, instance:com.adjustSwaggerPetstore.testcases.LaunchTest@6fadae5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="launchUrlTest()[pri:0, instance:com.adjustSwaggerPetstore.testcases.LaunchTest@6fadae5d]" name="launchUrlTest" duration-ms="39" started-at="2021-11-11T15:48:00Z" finished-at="2021-11-11T15:48:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrlTest -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.adjustSwaggerPetstore.testcases.LaunchTest@6fadae5d]" name="tearDownMethod" is-config="true" duration-ms="1" started-at="2021-11-11T15:48:00Z" finished-at="2021-11-11T15:48:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchUrlTest status=SUCCESS method=LaunchTest.launchUrlTest()[pri:0, instance:com.adjustSwaggerPetstore.testcases.LaunchTest@6fadae5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="submitPetOrder()[pri:0, instance:com.adjustSwaggerPetstore.testcases.LaunchTest@6fadae5d]" name="submitPetOrder" duration-ms="8219" started-at="2021-11-11T15:48:00Z" finished-at="2021-11-11T15:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitPetOrder -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.adjustSwaggerPetstore.testcases.LaunchTest@6fadae5d]" name="tearDownMethod" is-config="true" duration-ms="1" started-at="2021-11-11T15:48:08Z" finished-at="2021-11-11T15:48:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=submitPetOrder status=SUCCESS method=LaunchTest.submitPetOrder()[pri:0, instance:com.adjustSwaggerPetstore.testcases.LaunchTest@6fadae5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.adjustSwaggerPetstore.testcases.LaunchTest@6fadae5d]" name="tearDown" is-config="true" duration-ms="203" started-at="2021-11-11T15:48:08Z" finished-at="2021-11-11T15:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.adjustSwaggerPetstore.testcases.LaunchTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
