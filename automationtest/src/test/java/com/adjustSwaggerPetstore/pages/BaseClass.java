@@ -32,7 +32,6 @@ public class BaseClass {
 		ExtentHtmlReporter extent = new ExtentHtmlReporter(new File("./Report/"));
 		report = new ExtentReports();
 		report.attachReporter(extent);
-		//driver = BrowserUtility.openApplication(driver, configProperties.getBrowser(), configProperties.getAppUrl());
 	}
 
 	@BeforeClass

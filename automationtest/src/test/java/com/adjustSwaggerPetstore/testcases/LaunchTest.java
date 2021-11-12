@@ -15,8 +15,7 @@ public class LaunchTest extends BaseClass {
 	@Test
 	public void launchUrlTest(){
 		LandingPage landingPage = PageFactory.initElements(driver, LandingPage.class);	
-		landingPage.verifyPageTitle();
-		
+		landingPage.verifyPageTitle();	
 	}
 	
 	@Test
